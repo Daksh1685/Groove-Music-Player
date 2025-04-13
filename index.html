@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+    <title>Groove - Web Player: Your sound, your vibe.</title>
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="close">
+          <img src="hamburger_close.svg" alt="" width="45" >
+        </div>
+        <div class="home bg-grey rounded m-1 p-1">
+          <div class="logo">
+            <img src="favicon.ico" alt="" style="width: 45px; height: 45px" />
+            <img class="invert" src="logo.png" alt="" />
+          </div>
+          <ul>
+            <li>
+              <img
+                class="invert"
+                src="https://cdn-icons-png.flaticon.com/512/3405/3405771.png"
+                alt="home"
+              />Home
+            </li>
+            <li><img src="search.svg" alt="search" />Search</li>
+          </ul>
+        </div>
+        <div class="library bg-grey rounded m-1 p-1">
+          <div class="heading">
+            <img src="library.png.png" alt="" />
+            <h2>Your Library</h2>
+          </div>
+          <div class="songlist">
+            <ul></ul>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-grey rounded p-1">
+        <div class="header">
+          <div class="nav">
+            <div class="hamburgerContainer">
+              <img
+                class="hamburger"
+                src="hamburger.svg"
+                alt=""
+                style="height: 40px; width: 40px"
+              />
+
+              <img src="left.png" alt="" />
+              <img src="right.png" alt="" />
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="signupbtn">Sign up</button>
+            <button class="loginbtn">Log in</button>
+          </div>
+        </div>
+        <div class="groove-playlists">
+          <h1>Groove Playlists</h1>
+          <div class="cardContainer">
+            <div data-folder="DHH" class="card">
+              <div class="play">
+                <img src="play_button.svg" alt="" />
+              </div>
+              <img src="Pop Hits.png" alt="" />
+              <h2>Pop Hits!</h2>
+
+              <h5>Feel the beat. Live the pop. Play it loud, feel it real!</h5>
+            </div>
+            <div data-folder="HH" class="card">
+              <div class="play">
+                <img src="play_button.svg" alt="" />
+              </div>
+              <img src="chill_cover.png" alt="" />
+              <h2>Fresh Picks!</h2>
+
+              <p>Vibe with the best. These are the Top Tracks!</p>
+            </div>
+          
+
+
+
+
+
+            <div data-folder="DHH" class="card">
+              <div class="play">
+                <img src="play_button.svg" alt="" />
+              </div>
+              <img src="party_cover.png" alt="" />
+              <h2>Party Mode!</h2>
+
+              <h5>For the nights you don't want to end!</h5>
+            </div>
+            <div data-folder="HH" class="card">
+              <div class="play">
+                <img src="play_button.svg" alt="" />
+              </div>
+              <img src="top_cover.png" alt="" />
+              <h2>Top Tracks!</h2>
+
+              <h4>Every beat tells a story. These are the loudest ones!</h4>
+            </div>
+          
+
+
+
+
+            <div data-folder="DHH" class="card">
+              <div class="play">
+                <img src="play_button.svg" alt="" />
+              </div>
+              <img src="summer_cover.png" alt="" />
+              <h2>Summer Jams!</h2>
+
+              <h5>Playlists that feel like vacation!</h5>
+            </div>
+            <div data-folder="HH" class="card">
+              <div class="play">
+                <img src="play_button.svg" alt="" />
+              </div>
+              <img src="workout_cover.png" alt="" />
+              <h2>Workout Tracks!</h2>
+
+              <h5>Every beat tells a story. These are the loudest ones!</h5>
+            </div>
+
+
+
+
+            <div data-folder="DHH" class="card">
+              <div class="play">
+                <img src="play_button.svg" alt="" />
+              </div>
+              <img src="jazz_cover.png" alt="" />
+              <h2>Jazz</h2>
+
+              <h5>When you play jazz, you play life, Jazz it up!</h5>
+            </div>
+            <div data-folder="HH" class="card">
+              <div class="play">
+                <img src="play_button.svg" alt="" />
+              </div>
+              <img src="love_cover.png" alt="" />
+              <h2>Love Songs!</h2>
+
+              <h4>Songs for the heart, not just the ears!</h4>
+            </div>
+            
+            
+            <div data-folder="HH" class="card">
+              <div class="play">
+                <img src="play_button.svg" alt="" />
+              </div>
+              <img src="trip_cover.png" alt="" />
+              <h2>Road Trips!</h2>
+
+              <h4>Map out the miles. Let music lead the way!</h4>
+            </div>
+          
+        </div>
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+            <div class="abovebar">
+              <div class="songinfo"></div>
+              <div class="songbuttons">
+                <img style="width:35px;" id="previous" src="previous.svg" alt="" />
+                <img style="width:35px;" id="play" src="play_circle.svg" alt="" />
+                <img style="width:35px;" id="next" src="next.svg" alt="" />
+              </div>
+              <div class="timevol">
+
+              
+              <div class="songtime">
+
+              </div>
+              <div class="volume">
+                <img src="volume.svg" alt="">
+                <div class="range">
+                  <input type="range" name="volume" id="">
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

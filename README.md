@@ -21,18 +21,4 @@ CSS3 – Styling and animations
 
 JavaScript – Functionality and interactivity
 
-🔥 How to Run Locally
-git clone https://github.com/Daksh1685/Groove-Music-Player.git
 
-
-Navigate to the project directory:
-cd Groove-Music-Player
-
-
-📂 Project Structure
-Groove-Music-Player/
-│
-├── index.html        # Main HTML file
-├── style.css         # Stylesheet
-├── script.js         # JavaScript functionality
-└── assets/           # Folder for music and images (if any)

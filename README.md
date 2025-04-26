@@ -1,5 +1,5 @@
 ﻿# Groove-Music-Player
-🎵 Groove Music Player
+ 🎵 Groove Music Player
 Groove Music Player is a sleek and minimal web-based music player built using HTML, CSS, and JavaScript.
 It provides a simple, stylish interface to enjoy your favorite music tracks right from the browser.
 
